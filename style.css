@@ -1,0 +1,51 @@
+body {
+  font-family: "monospace";
+  padding-top: 1rem;
+  background-color: whitesmoke;
+}
+
+#heading {
+  background-color: gray;
+  width: auto;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.headercontainer {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerbig {
+  width: 100%;
+  height: 450px;
+  margin-bottom: 30px;
+  margin: 30px auto;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 375px;
+  margin: 30px auto;
+  align-items: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+nav ul li {
+  display: inline-flex;
+  margin-left: 2rem;
+}
+
+#sections {
+  flex-direction: row;
+  justify-content: space-between;
+}
